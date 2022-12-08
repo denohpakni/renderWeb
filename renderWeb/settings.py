@@ -23,9 +23,11 @@ TEMPLATE_DIR = os.path.join(BASE_DIR,"templates")
 SECRET_KEY = 'django-insecure-s#8+9pgif-e^zro9q2@tnu!7i$4s41__pz3-mvt$2mbvfjh$-='
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://renderweb-6lgx.onrender.com',
+'127.0.0.1'
+]
 
 
 # Application definition
